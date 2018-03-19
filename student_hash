@@ -1,0 +1,20 @@
+
+[1mFrom:[0m /home/jdbean/code/labs/oo-student-scraper-nyc-web-031218/lib/student.rb @ line 20 Student#initialize:
+
+     [1;34m9[0m: [32mdef[0m [1;34minitialize[0m(student_hash)
+    [1;34m10[0m:   [1;34m# @name = student_hash[:name][0m
+    [1;34m11[0m:   [1;34m# @location = student_hash[:location][0m
+    [1;34m12[0m:   [1;34m# @twitter = student_hash[:twitter][0m
+    [1;34m13[0m:   [1;34m# @linkedin = student_hash[:linkedin][0m
+    [1;34m14[0m:   [1;34m# @github = student_hash[:github][0m
+    [1;34m15[0m:   [1;34m# @blog = student_hash[:blog][0m
+    [1;34m16[0m:   [1;34m# @profile_quote = student_hash [:profile_quote][0m
+    [1;34m17[0m:   [1;34m# @bio = student_hash [:bio][0m
+    [1;34m18[0m:   [1;34m# @profile_url = student_hash [:profile_url][0m
+    [1;34m19[0m:   student_hash.each [32mdo[0m |attribute, value|
+ => [1;34m20[0m:     binding.pry
+    [1;34m21[0m:     [1;36mself[0m.attribute = value
+    [1;34m22[0m:   [32mend[0m
+    [1;34m23[0m:   [36m@@all[0m << [1;36mself[0m
+    [1;34m24[0m: [32mend[0m
+
